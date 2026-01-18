@@ -1,0 +1,36 @@
+@import "tailwindcss";
+body {
+    max-width: 100%;
+    margin: 0 auto;
+}
+.nav {
+    background-color: #412567;
+    align-items: center;
+}
+.logo {
+/* border: 1px solid rgba(0, 0, 0, 1);
+height: 2rem;
+width: 36.5rem; */
+}
+.nav ul {
+    font-size: 1rem;
+    font-weight: 500;
+color: #FFFFFF;
+}
+.nav button {
+    width: 8.4rem;
+    height: 2.75rem;
+    border-radius: .24rem;
+    background: linear;
+    color: #FFFFFF;
+    padding-top: 1rem;
+    /* border: 1px solid red; */
+    border-radius: linear;
+
+
+    
+}
+
+
+
+
