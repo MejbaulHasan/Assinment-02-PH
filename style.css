@@ -198,7 +198,86 @@ text-align: center;
 color: #FFFFFF;
 gap: 80px;
         }
+#card-section {
+background: rgba(35, 14, 61, 1);
+padding: 150px 200px;
+gap: 40px;
+width: 100%;
+height: 1120px;
+}
+#card-section h1 {
+    color:#FFFFFF;
+
+font-style: Bold;
+font-size: 48px;
+font-weight: 700;
+line-height: 58px;
+text-align: center;
+text-transform: capitalize;
+padding-bottom: 40px;
+}
 
 
-    
+    .container {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 200px);
+}
+.card-img {
+   width: 3.75rem;
+height: 3.75rem;
+colo: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
+padding-bottom: 1rem;
+}
 
+.card{
+    /* width: 380px;
+height: 480px; */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 16;
+padding: 40px;
+border-radius: 40px;
+background: rgba(53, 17, 101, 0.4);
+}
+    .first-card {
+          grid-column: span 1;
+    grid-row: span 2;
+    }
+    .second-card{
+              grid-column: span 2;
+    grid-row: span 1;
+    }
+    .third-card{
+              grid-column: span 2;
+    grid-row: span 1;
+    }
+    .fourth-card{
+              grid-column: span 2;
+    grid-row: span 1;
+    }
+    .fifth-card{
+              grid-column: span 1;
+    grid-row: span 1;
+    }
+.card h2 {
+    color:#FFFFFF;
+font-style: Bold;
+font-size: 24px;
+font-weight: 700;
+line-height: 29px;
+text-align: left;
+padding-bottom: 1rem;
+} 
+.card p {
+    color: #FFFFFF;
+
+font-style: Regular;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+}
