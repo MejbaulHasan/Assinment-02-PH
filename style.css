@@ -448,3 +448,31 @@ line-height: 24px;
 text-align: center;
 padding-top: 32px;
 }
+
+
+.icon-wrap {
+  position: relative;
+}
+
+.badge {
+  position: absolute;
+  
+  top: -126px;
+  right: 10px;
+  background: #22c55e;
+  color: #fff;
+  font-size: 16px;
+  padding: 2px 6px;
+  border-radius: 999px;
+  font-weight: 600;
+  
+}
+.new-badge {
+  transition: all 0.3s ease;
+}
+
+.new-badge:hover {
+  transform: translateY(-16px) scale(1.2);
+}
+
+
